@@ -1,0 +1,105 @@
+.settings-body {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    max-height: 90vh;
+    width: 700px;
+    background-color: rgb(31, 31, 31);
+    border-color: rgb(124, 124, 124);
+    border-style: solid;
+    border-width: 4px;
+    text-align: center;
+    z-index: 2;
+}
+
+.settings-header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 140%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+.settings-items-body {
+    margin-top: 10px;
+    font-size: 1.1em;
+    background-color: rgb(31, 31, 31);
+}
+
+.settings-input-field {
+    white-space: nowrap;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+.settings-show-channel-selection {
+    white-space: nowrap;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+}
+
+input[type=text] {
+    text-align: right;
+    margin: 5px;
+    font-size: 1.1em;
+    border: 1px solid rgb(104, 104, 104);
+    background-color: rgb(87, 86, 86);
+    color: white;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+
+.settings-channels-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    width: 120px;
+    line-height: 100%;
+    background: rgb(13, 77, 18);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 4px;
+    border-width: 1;
+    border-color: black;
+    outline: 0;
+}
+
+.settings-save-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: calc(50% - 90px);
+    font-size: 1.1em;
+    width: 180px;
+    line-height: 300%;
+    background: rgb(43, 4, 4);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 16px;
+    border-width: 0;
+    outline: 0;
+}
+
+.settings-cancel-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    left: calc(50% - 90px);
+    font-size: 1.1em;
+    width: 180px;
+    line-height: 300%;
+    background: rgb(54, 54, 54);
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 16px;
+    border-width: 0;
+    outline: 0;
+}
+
+
